@@ -1,0 +1,7 @@
+#URL mapping for REST API Demo
+#Note: "NC" means case insensitive
+RewriteEngine on
+
+RewriteRule ^playerStatsService/items$ api/playerStatsService.php [NC]
+RewriteRule ^playerStatsService/items/([0-9]+)$ api/playerStatsService.php?seasonID=$1 [NC]
+

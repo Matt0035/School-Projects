@@ -1,0 +1,19 @@
+
+
+#AddUpdatePanel {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.formLabel {
+    width: 100px;
+    float: left;
+}
+
+.table table-hover:hover{
+    background-color: blue;
+}
